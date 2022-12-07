@@ -19,7 +19,6 @@ def parser(input):
     return input
 
 
-
 with open('./input.xml', 'r') as f:
     s = ''.join(f.readlines())
 

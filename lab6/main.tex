@@ -1,0 +1,33 @@
+\documentclass[10pt,a4paper]{article} 
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{physics}
+\usepackage{amsmath}
+\usepackage{mathdots}
+\usepackage[letterspace=150]{microtype}
+\usepackage{multicol}
+\usepackage[inner=0.25in,outer=0.25in,tmargin=2cm,footskip=.1in]{geometry}
+\setlength{\columnsep}{0.4cm}
+
+\usepackage{titleps}
+\newpagestyle{main_titul}{
+	\sethead{}{}{}            
+	\setfoot{}{}{} 
+}
+
+\usepackage{titleps}
+\newpagestyle{main}{
+	\sethead{}{\lsstyle ФИЗИЧЕСКИЙ ФАКУЛЬТАТИВ}{\textbf{\emph{35}}}
+}
+
+\begin{document}
+    \large
+    \input{titul.tex}
+    \normalsize
+    \input{page.tex}
+\end{document}
+\overbrace{} 
